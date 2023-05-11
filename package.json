@@ -3,16 +3,17 @@
 	"displayName": "Karmchenki Toggle Comment Forward",
 	"description": "automatically moves to the next line after toggling a single line comment",
 	"publisher": "Karmchenki",
+	"repository": "https://github.com/vistuleB/karmchenki-toggle-comment-forward.git",
 	"license": "MIT",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.46.0"
+		"vscode": "^1.78.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
